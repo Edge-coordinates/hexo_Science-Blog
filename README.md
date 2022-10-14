@@ -17,6 +17,10 @@ git clone https://github.com/Edge-coordinates/Science-Blog.git ./source/_posts
 npm install hexo -renderer-pug hexo -renderer-stylus  --save
 npm install hexo-abbrlink --save
 npm install hexo-generator-search --save
+
+# 非必须插件
+npm install hexo-enhancer@1.0.7 --save
+
 # 问题修复命令
 npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
 
