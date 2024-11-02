@@ -112,7 +112,7 @@ abbrlink:
   # Generate categories from directory-tree
   # depth: the max_depth of directory-tree you want to generate, should > 0
   auto_category:
-     enable: true  #true(default)
+     enable: false  #true(default)
      depth:        #3(default)
      over_write: false 
   auto_title: false #enable auto title, it can auto fill the title by path
