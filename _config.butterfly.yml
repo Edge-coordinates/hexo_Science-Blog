@@ -68,16 +68,16 @@ avatar:
 disable_top_img: false
 
 # 如果頁面未設置橫幅，則顯示默認的橫幅圖片
-default_top_img:
+default_top_img: https://tu.ltyuanfang.cn/api/fengjing.php
 
 # 主頁的橫幅圖片
-index_img:
+index_img: https://tu.ltyuanfang.cn/api/fengjing.php
 
 # 歸檔頁的橫幅圖片
-archive_img:
+archive_img: https://tu.ltyuanfang.cn/api/fengjing.php
 
 # 注意: 是標籤頁（單個標籤），不是標籤頁面（所有標籤）
-tag_img:
+tag_img: https://tu.ltyuanfang.cn/api/fengjing.php
 
 # 標籤頁的橫幅圖片，可以為每個標籤設置橫幅圖片
 # 格式:
@@ -85,7 +85,7 @@ tag_img:
 tag_per_img:
 
 # 注意: 是分類頁（單個分類），不是分類頁面（所有分類）
-category_img:
+category_img: https://tu.ltyuanfang.cn/api/fengjing.php
 
 # 分類頁的橫幅圖片，可以為每個分類設置橫幅圖片
 # 格式:
@@ -296,7 +296,7 @@ footer:
     # 是否啟用所有者顯示
     enable: true
     # 網站創建年份
-    since: 2019
+    since: 2022
   # 自定義文本
   custom_text:
   # 主題和框架的版權聲明
@@ -337,12 +337,12 @@ aside:
       # 按鈕文本
       text: Follow Me
       # 按鈕鏈接
-      link: https://github.com/xxxxxx
+      link: https://github.com/Edge-coordinates
   card_announcement:
     # 是否顯示公告卡片
     enable: true
     # 公告內容
-    content: This is my Blog
+    content: 行走于世界的边缘，荒原的拾荒人。
   card_recent_post:
     # 是否顯示最近文章卡片
     enable: true
@@ -544,8 +544,12 @@ math:
 search:
   # 選擇：algolia_search / local_search / docsearch
   # 如果不需要搜索功能，保持為空
-  use:
+  use: local_search
   placeholder:
+  path: search.xml
+  field: post
+  content: true
+  format: html
 
   # Algolia 搜索
   algolia_search:
@@ -559,7 +563,7 @@ search:
     # 每篇文章顯示的頂部 n 個搜索結果，設置為 -1 顯示所有結果
     top_n_per_article: 1
     # 將 HTML 字符串反轉義為可讀內容
-    unescape: false
+    unescape: true
     CDN:
 
   # Docsearch
@@ -1223,3 +1227,4 @@ CDN:
   custom_format:
 
   option:
+    busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js

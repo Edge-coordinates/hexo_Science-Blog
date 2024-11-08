@@ -29,9 +29,9 @@ importers:
       hexo-generator-index:
         specifier: ^4.0.0
         version: 4.0.0
-      hexo-generator-search:
-        specifier: ^2.4.3
-        version: 2.4.3(chokidar@3.6.0)
+      hexo-generator-searchdb:
+        specifier: ^1.4.1
+        version: 1.4.1(chokidar@3.6.0)
       hexo-generator-sitemap:
         specifier: ^3.0.1
         version: 3.0.1(chokidar@3.6.0)
@@ -59,6 +59,9 @@ importers:
       hexo-theme-landscape:
         specifier: ^1.0.0
         version: 1.0.0
+      moment-timezone:
+        specifier: ^0.5.46
+        version: 0.5.46
 
 packages:
 
@@ -774,9 +777,8 @@ packages:
     resolution: {integrity: sha512-KeM7mOCKWINGFAk1E+CkjMMgqFIv8oaRbGxR7ipkQAp44o4aopkVftma4sdIplOq9WQEWfVYDUK5gEv9J3nzUg==}
     engines: {node: '>=18'}
 
-  hexo-generator-search@2.4.3:
-    resolution: {integrity: sha512-Z5hfZq2g3np/Tgdp2q9HobfIvU6Pdz89tnTurc1IIq/vW0MHgDynk0Aiv6kvMtKWthnZ5l0iEMT3YLN35NdYwQ==}
-    engines: {node: '>= 0.10.0'}
+  hexo-generator-searchdb@1.4.1:
+    resolution: {integrity: sha512-7m8IBpZbI6iKb2jRYxs4pghD6Ln8ylQSRGl6MIC4G9wws21vYSXSD8rvC3MoCO+pWBHs6E/mTA/rjG+p2AZfVg==}
 
   hexo-generator-sitemap@3.0.1:
     resolution: {integrity: sha512-n+0KLNmq6TLbiZPTQF6NY5MbEem/O+DFx0lgQZNQcU4tdjXIZRrQJs+KRKeT66NTkdlYTqb4WwCxswLqQz0crA==}
@@ -2523,10 +2525,9 @@ snapshots:
     dependencies:
       hexo-pagination: 3.0.0
 
-  hexo-generator-search@2.4.3(chokidar@3.6.0):
+  hexo-generator-searchdb@1.4.1(chokidar@3.6.0):
     dependencies:
       nunjucks: 3.2.4(chokidar@3.6.0)
-      utils-merge: 1.0.1
     transitivePeerDependencies:
       - chokidar
 
