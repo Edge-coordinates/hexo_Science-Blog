@@ -810,15 +810,15 @@ microsoft_clarity:
 umami_analytics:
   enable: true
   # For self-hosted setups, configure the hostname of the Umami instance
-  serverURL:
-  website_id: 1b7f055e-4c76-49b4-881d-5d6aebfe31f3
+  serverURL: http://umami.rezedge.com/
+  website_id: 6e5972c4-0a32-429f-8af4-6c448d680718
   option:
   UV_PV:
     site_uv: true
     site_pv: true
     page_pv: true
     # Umami Cloud (API key) / self-hosted Umami (token)
-    token: a3noFunj1xv4rKCBva4Ra7UyWHEGy6ER
+    token: ABwl3X6eKWKlLVP7sQ7j2AcQhQadwcKo9dhhRRTYnMEKcHkeJs9mK6NU4qb/jawPxhCM4XGb0GTAsGBv5gYG4dPRhKq2PqmkAhZdBp73jH9yg3XRfThVPEeLRYIzi66YY8zn1r1xzIXIZ04O590tFXZ3wmb5vm6azxXPEm6hCUqsLa69QUnEWHyMYIQ1XvOqp9DaHxICDT+u1ZCIU5if26QrYfn7Lki7BUSNPZTMfBhW1+GBepzPe0d8RhjQxWHCQVoHwUI4PsYEl7N+BlZDPorPXjgAbwYxdbm8wFRiQtVv9Km9Kxzm06KRMgsYUNgTLzJn0vThAnBtIVS50eZ7pL20tkE8BjFskQ==
 
 # --------------------------------------
 # 廣告配置
