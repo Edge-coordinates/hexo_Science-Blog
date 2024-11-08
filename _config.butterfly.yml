@@ -109,6 +109,8 @@ cover:
   # 主頁封面的位置
   # 選擇: left/right/both
   position: both
+  # Default_cover后缀（用于使用随机图片API时，可以让同一页面的图片不同）,支持 0(不使用后缀)；1(问号加随机数)；2(&加随机数)
+  suffix: 1
   # 當未設置封面時，顯示默認封面
   default_cover:
     - https://www.dmoe.cc/random.php
