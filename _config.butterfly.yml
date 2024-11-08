@@ -111,6 +111,7 @@ cover:
   position: both
   # 當未設置封面時，顯示默認封面
   default_cover:
+    - https://www.dmoe.cc/random.php
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # 替換損壞的圖片
