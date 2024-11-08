@@ -507,11 +507,11 @@ wordcount:
 # 不蒜子 PV / UV 統計
 busuanzi:
   # 網站 UV 統計
-  site_uv: true
+  site_uv: false
   # 網站 PV 統計
-  site_pv: true
+  site_pv: false
   # 頁面 PV 統計
-  page_pv: true
+  page_pv: false
 
 # --------------------------------------
 # 數學公式設置
@@ -805,6 +805,20 @@ cloudflare_analytics:
 # Microsoft Clarity 分析配置
 # 官方網站：https://clarity.microsoft.com/
 microsoft_clarity:
+
+# https://umami.is/
+umami_analytics:
+  enable: true
+  # For self-hosted setups, configure the hostname of the Umami instance
+  serverURL:
+  website_id: 1b7f055e-4c76-49b4-881d-5d6aebfe31f3
+  option:
+  UV_PV:
+    site_uv: true
+    site_pv: true
+    page_pv: true
+    # Umami Cloud (API key) / self-hosted Umami (token)
+    token: a3noFunj1xv4rKCBva4Ra7UyWHEGy6ER
 
 # --------------------------------------
 # 廣告配置
