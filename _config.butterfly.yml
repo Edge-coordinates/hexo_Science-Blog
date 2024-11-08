@@ -175,7 +175,7 @@ index_top_img_height:
 # 首頁的副標題設置
 subtitle:
   # 是否啟用副標題
-  enable: false
+  enable: true
   # 是否啟用打字機效果
   effect: true
   # 自定義 typed.js
@@ -188,7 +188,7 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - yijuzhan.com
   # 3 - jinrishici.com
-  source: false
+  source: 1
   # 如果關閉打字機效果，副標題將僅顯示 sub 的第一行內容
   sub:
 
