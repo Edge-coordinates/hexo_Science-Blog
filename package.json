@@ -12,6 +12,7 @@
     "version": "7.3.0"
   },
   "dependencies": {
+    "moment-timezone": "^0.5.46",
     "hexo": "^7.3.0",
     "hexo-abbrlink": "^2.2.1",
     "hexo-browsersync": "^0.3.0",
