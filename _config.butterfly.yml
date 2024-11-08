@@ -15,9 +15,9 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标籤: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  荒原研究所||fa fa-heartbeat:
-    Github: https://github.com/wasteland-institute || fab fa-github
-    Science-Blog: https://github.com/wasteland-institute/Science-Blog || fab fa-github
+  组织||fa fa-heartbeat:
+    REZICS(轮回社): https://github.com/orgs/REZICS/ || fab fa-github
+    荒原研究所: https://github.com/REZEDGERS || fab fa-github
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
@@ -195,7 +195,7 @@ subtitle:
 # 首頁文章佈局
 # 1: 行佈局
 # 2: 列布局
-index_layout: 1
+index_layout: 3
 
 # 在首頁顯示文章簡介
 # 1: 描述
@@ -545,11 +545,8 @@ search:
   # 選擇：algolia_search / local_search / docsearch
   # 如果不需要搜索功能，保持為空
   use: local_search
+  # 搜索框的提示文字
   placeholder:
-  path: search.xml
-  field: post
-  content: true
-  format: html
 
   # Algolia 搜索
   algolia_search:
