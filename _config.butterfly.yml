@@ -810,7 +810,7 @@ microsoft_clarity:
 umami_analytics:
   enable: true
   # For self-hosted setups, configure the hostname of the Umami instance
-  serverURL: http://umami.rezedge.com/
+  serverURL: https://umami.rezedge.com/
   website_id: 6e5972c4-0a32-429f-8af4-6c448d680718
   option:
   UV_PV:
