@@ -600,7 +600,7 @@ comments:
   # 如果不需要評論功能，保持為空
   # 選擇：Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # 兩個評論系統的格式：Disqus,Waline
-  use:
+  use: Giscus
   # 按鈕旁邊顯示評論系統名稱
   text: true
   # 懶加載：評論系統將在評論元素進入瀏覽器視口時加載
@@ -723,11 +723,11 @@ twikoo:
 # 官方文檔：https://giscus.app/
 giscus:
   # 倉庫地址
-  repo:
+  repo: Edge-coordinates/PicBed
   # 倉庫 ID
-  repo_id:
+  repo_id: MDEwOlJlcG9zaXRvcnkzMjYzNzc2NzA=
   # 分類 ID
-  category_id:
+  category_id: DIC_kwDOE3Qgxs4CmDa_
   # 主題配置，light 為淺色主題，dark 為深色主題
   theme:
     light: light
