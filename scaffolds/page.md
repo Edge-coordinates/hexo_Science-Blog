@@ -1,4 +1,7 @@
 ---
-title: {{ title }}
-date: {{ date }}
+title: page
+date:
+  "[object Object]": null
+categories:
+  - - scaffolds
 ---

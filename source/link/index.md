@@ -1,5 +1,8 @@
 ---
-title: 友情鏈接
-date: 2018-06-07 22:17:49
-type: "link"
+title: index
+date: 2018-06-07T22:17:49.000Z
+categories:
+  - - source
+    - link
+type: link
 ---

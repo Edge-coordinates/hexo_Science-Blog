@@ -1,5 +1,8 @@
 ---
-title: {{ title }}
-date: {{ date }}
-tags:
+title: post
+date:
+  "[object Object]": null
+categories:
+  - - scaffolds
+tags: null
 ---
