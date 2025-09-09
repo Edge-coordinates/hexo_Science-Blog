@@ -127,7 +127,7 @@ error_img:
 # 簡單的 404 頁面
 error_404:
   # 是否啟用 404 頁面
-  enable: false
+  enable: true
   # 404 頁面的副標題
   subtitle: 'Page Not Found'
   # 404 頁面的卡片背景圖片
@@ -366,9 +366,9 @@ aside:
     # 是否顯示分類卡片
     enable: true
     # 顯示分類數量，0 表示顯示所有
-    limit: 8
+    limit: 0
     # 選擇：none / true / false
-    expand: none
+    expand: false
     sort_order:
   card_tags:
     # 是否顯示標籤卡片
@@ -384,7 +384,7 @@ aside:
     sort_order:
   card_archives:
     # 是否顯示歸檔卡片
-    enable: true
+    enable: false
     # 歸檔類型：monthly / yearly
     type: monthly
     # 日期格式，例如：YYYY年MM月
@@ -812,14 +812,14 @@ umami_analytics:
   enable: true
   # For self-hosted setups, configure the hostname of the Umami instance
   serverURL: https://umami.rezedge.com/
-  website_id: 6e5972c4-0a32-429f-8af4-6c448d680718
+  website_id: 78567139-3665-441f-b33a-a1e1403bae73
   option:
   UV_PV:
     site_uv: true
     site_pv: true
     page_pv: true
     # Umami Cloud (API key) / self-hosted Umami (token)
-    token: ABwl3X6eKWKlLVP7sQ7j2AcQhQadwcKo9dhhRRTYnMEKcHkeJs9mK6NU4qb/jawPxhCM4XGb0GTAsGBv5gYG4dPRhKq2PqmkAhZdBp73jH9yg3XRfThVPEeLRYIzi66YY8zn1r1xzIXIZ04O590tFXZ3wmb5vm6azxXPEm6hCUqsLa69QUnEWHyMYIQ1XvOqp9DaHxICDT+u1ZCIU5if26QrYfn7Lki7BUSNPZTMfBhW1+GBepzPe0d8RhjQxWHCQVoHwUI4PsYEl7N+BlZDPorPXjgAbwYxdbm8wFRiQtVv9Km9Kxzm06KRMgsYUNgTLzJn0vThAnBtIVS50eZ7pL20tkE8BjFskQ==
+    token: IvRcrvBX//qRy7GGjzYD0BNY/jAaKlpXJk1V8TpR6MX9b0ea2WXP8wtUlbLUPIkLXybuU+1OvL4hbNDlRss5stKuMaxjTykC8l5Zy3XBB4M1z2czQVoZNS7Zq4+qF+zWMkKYmJHkQponxUfwTqmgGuUGDgtsRfQdHjJqREmaqRzUmpXgCYKAR0nMKtql1oncvjCVQZN+5bJJIdW6ODSZ4BqG1B58SHAoi3cOEsgcZgsPw+XfQMYNfVPBAvbYNDY7A7l7ws4QTL6dG7/zijFz7xj/kEOjn+jWAhFb2L2r7nUgvfGPIkzNJ0rXF5vXExTELXAOrw/x45pLPsL3+JHldBCXI7ONQMxv75Y0s+7ix1lcw1Rmn8yEsSGzASA=
 
 # --------------------------------------
 # 廣告配置
