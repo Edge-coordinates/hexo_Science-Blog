@@ -21,15 +21,15 @@ git clone https://github.com/Edge-coordinates/Science-Blog.git ./source/_posts
 git clone -b mine https://github.com/Edge-coordinates/hexo-theme-butterfly.git ./themes/butterfly
 
 # 安装插件
-npm install hexo -renderer-pug hexo -renderer-stylus  --save
-npm install hexo-abbrlink --save
-npm install hexo-generator-search --save
+bun install hexo -renderer-pug hexo -renderer-stylus  --save
+bun install hexo-abbrlink --save
+bun install hexo-generator-search --save
 
 # 非必须插件
-npm install hexo-enhancer@1.0.7 --save
+bun install hexo-enhancer@1.0.7 --save
 
 # 问题修复命令
-npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
+bun install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
 
 # 服务器的博更新（原程覆盖本地）
 git pull --ff-only
