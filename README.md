@@ -6,7 +6,9 @@ categories:
 ---
 # hexo_Science-Blog
 
-```powershell
+应当注意，hexo与bun兼容性一般，所以除了本地以外不建议用bun
+
+```sh
 # 新建目录&初始化
 hexo init
 mkdir -p ./source/_posts
@@ -17,6 +19,17 @@ git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git ./them
 ## 博客路径
 git clone https://github.com/Edge-coordinates/Science-Blog.git ./source/_posts
 
+# 服务器的博更新（原程覆盖本地）
+git pull --ff-only
+
+git fetch --all
+git reset --hard origin/master
+git pull
+```
+
+## 本地开发调试
+
+```sh
 ## 自用主题 (Archive)
 git clone -b mine https://github.com/Edge-coordinates/hexo-theme-butterfly.git ./themes/butterfly
 
@@ -30,17 +43,10 @@ bun install hexo-enhancer@1.0.7 --save
 
 # 问题修复命令
 bun install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
-
-# 服务器的博更新（原程覆盖本地）
-git pull --ff-only
-
-git fetch --all
-git reset --hard origin/master
-git pull
 ```
 
 ## Scripts
-```powershell
+```sh
 # 每次更新代码，先用 hexo clean 清理才会生效
 # priority 越低，优先级越高
 # 解决问题的时候，不要想着前面试了，然后不生效，所以没用，有可能你改过某个东西之后，那个方法又生效了。
