@@ -4,9 +4,9 @@ date: 2025/9/9 0:4:23
 categories:
   - null
 ---
-# hexo_Science-Blog
+# rezedge-blog-hexo-config
 
-包管理器是 Yarn 4（Corepack）。站点由 Science-Blog 的 GitHub Actions 构建并发布到 Cloudflare Pages（`rezedge-blog`），域名 `blog.rezedge.com`。
+包管理器是 Yarn 4（Corepack）。站点由 rezedge-blog 的 GitHub Actions 构建并发布到 Cloudflare Pages（`rezedge-blog`），域名 `blog.rezedge.com`。
 
 ```sh
 corepack enable
@@ -15,7 +15,7 @@ corepack enable
 git clone --branch 5.2.2 --depth 1 https://github.com/jerryc127/hexo-theme-butterfly.git ./themes/butterfly
 
 # 文章仓库
-git clone https://github.com/Edge-coordinates/Science-Blog.git ./source/_posts/Science-Blog
+git clone https://github.com/Edge-coordinates/rezedge-blog.git ./source/_posts/rezedge-blog
 
 yarn install
 ```
