@@ -101,6 +101,19 @@ pagination_dir: page
 include:
 exclude:
 ignore:
+    - "**/node_modules/**"
+    - "**/.git/**"
+    - "**/.yarn/**"
+    - "**/.pnp.*"
+    - "**/.autofm/**"
+    - "**/.claude/**"
+    - "**/.github/**"
+    - "**/.vscode/**"
+    - "**/.lefthook/**"
+    - "**/Taskfile.yml"
+    - "**/lefthook.yml"
+    - "**/yarn.lock"
+    - "**/package.json"
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/

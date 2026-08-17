@@ -1,0 +1,22 @@
+version: "3"
+
+tasks:
+  install:
+    desc: Install Hexo dependencies
+    cmds:
+      - yarn install
+
+  build:
+    desc: Generate the static site
+    cmds:
+      - yarn hexo generate
+
+  clean:
+    desc: Remove Hexo generated files
+    cmds:
+      - yarn hexo clean
+
+  server:
+    desc: Start the local Hexo server
+    cmds:
+      - yarn hexo server
